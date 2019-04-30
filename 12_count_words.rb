@@ -8,6 +8,17 @@
 # hello 1
 # 1 2
 
+# Gets users input
+puts "Please enter a list of words"
+    input = gets.strip
+# Counts number of times word occurs
+def word_count(input)
+    words = Hash.new(0)
+    input.split(" ").each do |word|
+        
+end
+
+
 # Test your solution by running 12_count_words
 
 

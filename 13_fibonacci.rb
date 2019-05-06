@@ -23,5 +23,14 @@
 # ruby tests/13_fibonacci_test.rb
 
 def nthFibonacci (n)
-  # Your code here
+  if n == 1
+    return 1
+
+  elsif n == 2
+    return 1
+
+  else n > 2
+    n = nthFibonacci(n-1) + nthFibonacci(n-2)
+  end    
 end
+

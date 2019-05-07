@@ -27,3 +27,27 @@
 # ...etc
 
 # Your code here
+num = 0
+loop do 
+
+    if num == 101
+    
+    break
+    
+    else 
+    num += 1
+    
+    end
+    case num
+
+    when num/3 == 0 & num/5 == 0 
+    puts "fizzbuzz"
+
+    when num/3 == 0
+    puts "fizz"
+
+    when num/5 == 0
+    puts "buzz"
+    
+    end
+end 

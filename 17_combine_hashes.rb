@@ -15,8 +15,8 @@
 # combine_hashes => { a: 8, b: 7, c: 15 }
 
 # Example: 
-# hash1 = {a: "a", b:"b", c:"c"}
-# hash2 = {a: "a", b:"b", c:"c"}
+hash1 = {a: "a", b:"b", c:"c"}
+hash2 = {a: "a", b:"b", c:"c"}
 # combine_hashes => {a: "aa", b:"bb", c:"cc"}
 
 
@@ -25,8 +25,10 @@
 
 def combine_hashes(hash1, hash2)
   hash3 = {}
-
-  # Your code here
-
+ hash3 = hash1.merge(hash2)  
+  
+  
   return hash3
 end
+
+puts combine_hashes(hash1,hash2)

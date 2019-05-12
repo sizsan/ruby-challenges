@@ -17,172 +17,22 @@
     7. Push to master in your fork:<br/>
      `git push origin master`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11_fizzbuzz
 ## List of challenge branches
 * 01_ruby_intro
 * 02_input_output
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-* 03_largest_number
->>>>>>> da4dd559766a8de215b1be280af0bb4c15966aa5
-=======
-* 03_largest_number
-* 04_sum_numbers
-* 05_in_array
->>>>>>> a600065b3f320365a06fe044bcddc70911b1fe59
-=======
-=======
-# List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> 83c12527614c5883557817f66bddd38944975dbb
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
-<<<<<<< HEAD
->>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a
-=======
->>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
->>>>>>> 11_fizzbuzz
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
-## List of challenge branches
-* 01_ruby_intro
-* 02_input_output
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 03_largest_number
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 11_fizzbuzz
->>>>>>> 0c5142cf57ae7e09850c719182717c4efdd33e24
-=======
-* 07_included_once
->>>>>>> 83c12527614c5883557817f66bddd38944975dbb
-=======
-* 07_included_once
-* 08_count_letters
-* 09_vowels
->>>>>>> edb6dc4f8813f7619f327824eb92afe925d068d0
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
->>>>>>> 11_fizzbuzz
-=======
->>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
-=======
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
-=======
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 07_included_once
 * 08_count_letters
 * 09_vowels
 * 10_unique
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-* 11_fizzbuzz
-* 12_count_words
->>>>>>> 937f429a6570923b9196f3610cb404d51c87a14a
-=======
-<<<<<<< HEAD
->>>>>>> 22214b8847ff6c0bac28dc9a21fa0df33d860f1c
-=======
-* 11_fizzbuzz
->>>>>>> b366d1cd278c93875c0d8baa5a56af178b5d25b1
->>>>>>> 11_fizzbuzz
-=======
-* 11_fizzbuzz
-* 12_count_words
-* 13_fibonacci
->>>>>>> eefe86a28a479a1d7de848168244e227a28595bc
-=======
-=======
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
 * 11_fizzbuzz
 * 12_count_words
 * 13_fibonacci
 * 14_hackerman
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> adb499cafc46a70114f2fb2e4262f3897a4ccaf9
-=======
-* 15_change_letters
->>>>>>> 8bedbac6d45c7bd64aeea2b697014541499015ed
-=======
-* 15_change_letters
-* 16_palindrome
->>>>>>> 5f4dd7950c4401600a6c84e20a801885d610259b
-=======
 * 15_change_letters
 * 16_palindrome
 * 17_combine_hashes
->>>>>>> bbfdad0511b40c0003dfc3256a1892fbc4555b44
+* 18_find_errors    

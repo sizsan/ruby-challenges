@@ -19,6 +19,13 @@
 # Check your solution by running the tests:
 # ruby tests/16_palindrome_test.rb
 
-def palindrome (string)
-  # Your code here
+def palindrome(string)
+   if string == string.reverse
+    return true
+   else
+    return false 
+   end
 end
+
+puts palindrome("hannah")
+puts palindrome("hello")

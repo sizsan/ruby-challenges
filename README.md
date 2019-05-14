@@ -40,6 +40,7 @@
 * 20_descending_numbers
 * 21_sort_numbers
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 22_exes_ohs
 * 23_first_non_repeating
 <<<<<<< HEAD
@@ -54,3 +55,9 @@
 =======
 * 22_exes_ohs
 >>>>>>> 4a3959cc538f83ca85bc65db68ff57b1adb64ac5
+=======
+* 22_exes_ohs
+* 23_first_non_repeating
+* 24_isogram
+* 25_remove_adjacent_duplicates
+>>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08

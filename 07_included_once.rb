@@ -3,7 +3,7 @@
 # Write a method that takes an array and a string. Return
 # true if the string is found in the array only once.
 # Otherwise return false.
-#
+# 
 # What's the time complexity of your solution? Can it be improved?
 #
 # *** Whiteboard this first ***
@@ -19,5 +19,5 @@
 #
 
 def included_once (haystack, needle)
-  # Your code here
+    
 end

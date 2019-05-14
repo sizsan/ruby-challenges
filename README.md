@@ -47,6 +47,7 @@
 * 27_in_array_strict
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 28_good_walk
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
@@ -54,3 +55,8 @@
 * 28_good_walk
 * 29_shortest_walk
 >>>>>>> dff6e760c9959c86184b60ddc6905141bbc5ad6a
+=======
+* 28_good_walk
+* 29_shortest_walk
+* 30_spin_words
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229

@@ -52,6 +52,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * 28_good_walk
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
@@ -71,10 +72,13 @@
 >>>>>>> 52a613341a8bd665c5647d3eb4b64b7d5282c37c
 =======
 >>>>>>> 3656a16c2fea7068365e58f9c507d2f83edc5107
+=======
+>>>>>>> 0c6ca02eae92992d20606e595fd80a9b4db239e1
 * 28_good_walk
 * 29_shortest_walk
 * 30_spin_words
 * 31_missing_letter
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,3 +95,11 @@
 * 33_digital_root
 * 34_prime_number
 >>>>>>> 3656a16c2fea7068365e58f9c507d2f83edc5107
+=======
+* 32_interesting_number
+* 33_digital_root
+* 34_prime_number
+* 35_group_by_owners
+* 36_binary_flip
+* 37_caesar_cipher
+>>>>>>> 0c6ca02eae92992d20606e595fd80a9b4db239e1

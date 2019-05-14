@@ -41,3 +41,7 @@
 * 21_sort_numbers
 * 22_exes_ohs
 * 23_first_non_repeating
+<<<<<<< HEAD
+=======
+* 24_isogram
+>>>>>>> d803e12e3b11627a2fdc70c32df1d4ca01cf3571

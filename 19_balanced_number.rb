@@ -48,5 +48,10 @@
 # Note : The middle digit(s) are 02.
 
 def balanced_num(number)
-    # Your code goes here
+   numbers = number.to_s.split(//)
+   
+   numbers.length / 2
+
 end
+
+puts balanced_num(2)

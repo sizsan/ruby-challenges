@@ -37,3 +37,7 @@
 * 17_combine_hashes
 * 18_find_errors
 * 19_balanced_number
+<<<<<<< HEAD
+=======
+* 20_descending_numbers
+>>>>>>> 81e46faea3bf8de55ef764c4abc4d6c440b9bae5

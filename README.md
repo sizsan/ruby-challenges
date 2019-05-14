@@ -39,25 +39,9 @@
 * 19_balanced_number
 * 20_descending_numbers
 * 21_sort_numbers
-<<<<<<< HEAD
-<<<<<<< HEAD
-* 22_exes_ohs
-* 23_first_non_repeating
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-* 24_isogram
->>>>>>> d803e12e3b11627a2fdc70c32df1d4ca01cf3571
-=======
-* 24_isogram
-* 25_remove_adjacent_duplicates
->>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
-=======
-* 22_exes_ohs
->>>>>>> 4a3959cc538f83ca85bc65db68ff57b1adb64ac5
-=======
 * 22_exes_ohs
 * 23_first_non_repeating
 * 24_isogram
 * 25_remove_adjacent_duplicates
->>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+* 26_max_min
+* 27_in_array_strict

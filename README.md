@@ -21,6 +21,7 @@
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
+<<<<<<< HEAD
 * 04_sum_numbers
 * 05_in_array
 * 06_definition
@@ -53,3 +54,6 @@
 * 22_exes_ohs
 * 23_first_non_repeating
 >>>>>>> a87187ce63d794abb384db7a7bfb3dbc533fc579
+=======
+* 04_sum_numbers
+>>>>>>> ca0498614d1b4bcb2ee50e3189f18e597eb98b3b

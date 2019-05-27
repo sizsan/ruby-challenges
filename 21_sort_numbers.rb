@@ -24,5 +24,18 @@
 # Expected output: [2,2,4,5,8]
 
 def sort(num_array)
-    # Your code goes here
+    indi = 0
+    ascending_order = []
+    num_array.each do |num|
+        indi += 1
+        if  num_array.index[indi] < num_array[indi + 1] 
+            ascending_order += num_array.shift 
+
+        else num_array.index[indi] > num_array[indi + 1]
+            puts ascending_order
+            break
+        end
+    end
 end
+
+puts sort([2,5,4,8,2])

@@ -4,14 +4,16 @@
 # and return their sum.
 
 # Example:
-# sum_numbers([1,1,1]) should return 3
+# run should return 3
 # sum_numbers([5,2,100,0,10]) should return 117
 
 # Check your solution by running the tests:
 # ruby tests/04_sum_numbers_test.rb
 
 def sum_numbers (numbers)
-  # Your code here
+  sum = 0 
+  numbers.each { |num| sum += num}
+  return sum 
 end
 
 
@@ -23,3 +25,5 @@ end
 
 # Hint:
 # You could test what happens when you call sum_numbers([])?
+
+# puts sum_numbers([5,2,100,0,10])

@@ -26,7 +26,6 @@
 # has a file name ending in _spec.rb
 
 def good_walk(walk)
-    
     return false if walk.length != 10
     x = 0
     y = 0    
@@ -45,5 +44,6 @@ end
     x + y == 0 ? true : false
 end
 
-puts good_walk(["n","s","w","e","w","e","s","n","w","e"])
-puts good_walk(["n","s","w","e","w","e","s","n","w"])
+# Testing
+# puts good_walk(["n","s","w","e","w","e","s","n","w","e"])
+# puts good_walk(["n","s","w","e","w","e","s","n","w"])

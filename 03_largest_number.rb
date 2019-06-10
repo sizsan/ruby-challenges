@@ -34,7 +34,7 @@ if number1 < number2
   
 elsif number2 < number1
     puts "#{number1}"
-  #This loop is to annoy anyone who is trying to break me largest number program.
+  #This loop is to annoy anyone who is trying to break my largest number program.
   elsif number1 == number2
     loop do
     puts "The numbers are equal"

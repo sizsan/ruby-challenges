@@ -23,7 +23,8 @@ end
 # Redo the challenge but try solving it again in a different way.
 def in_array2(needle, haystack)
   for hay in haystack
-    return true if hay == needle
+  if hay == needle
+    return true 
   end
   return false
 end

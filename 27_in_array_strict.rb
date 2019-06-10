@@ -25,5 +25,14 @@
 # helper methods, except for .each
 
 def in_array_strict? (string, arr, strict)
-    # your code goes here
+    arr.each do |string|
+        if strict == arr.index[index]
+            return true
+            break
+        else
+            return false
+        end
+    end
 end
+
+in_array_strict?("HeLLo", ["hi", "howdy", "Hello"], false)

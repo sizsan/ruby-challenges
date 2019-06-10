@@ -26,4 +26,4 @@ end
 # Hint:
 # You could test what happens when you call sum_numbers([])?
 
-# puts sum_numbers([5,2,100,0,10])
+puts sum_numbers([5,2,100,0,10])

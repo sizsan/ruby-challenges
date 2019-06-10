@@ -17,5 +17,8 @@
 
 
 def max_min(num_string)
-    # your code goes here
+    nums = num_string.split(' ')
+    puts nums.sort!
 end
+
+max_min("5 2 9 8 23 1") 

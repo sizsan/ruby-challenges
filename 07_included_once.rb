@@ -19,5 +19,18 @@
 #
 
 def included_once (haystack, needle)
-    
+    count = 0
+    haystack.each do |needle| 
+    if needle == haystack[2]
+        count += 1
+    end
+    if count == 1
+        return true
+    else
+        return false
+    end
+    end
 end
+
+puts included_once(['hello','hi','hey'], 'hi')
+puts included_once(['hello','hi','hi','hey'], 'hi')

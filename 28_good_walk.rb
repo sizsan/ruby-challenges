@@ -26,6 +26,24 @@
 # has a file name ending in _spec.rb
 
 def good_walk(walk)
-    # your code goes here
+    
+    return false if walk.length != 10
+    x = 0
+    y = 0    
+    walk.each do |direction|
+    case direction
+    when "n"
+        y += 1
+    when "s"
+        y -= 1
+    when "e" 
+       x += 1
+    when "w" 
+        x -= 1
+    end 
+end
+    x + y == 0 ? true : false
 end
 
+puts good_walk(["n","s","w","e","w","e","s","n","w","e"])
+puts good_walk(["n","s","w","e","w","e","s","n","w"])

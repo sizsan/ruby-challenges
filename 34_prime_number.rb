@@ -24,5 +24,5 @@
 # Assume only positive whole numbers >=2 are given as argument.
 
 def prime_number(number)
-    # Your code goes here
+    
 end

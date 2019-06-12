@@ -44,5 +44,32 @@
 # The test with the challenge use rspec
 
 def shortest_walk(walk)
-    # your code goes here
+x = 0
+y = 0
+shortest = [] 
+    walk.each do |direction|
+    case direction
+    
+        when "NORTH"
+            y += 1
+        when "SOUTH"
+            y -= 1
+        when "WEST"
+            x -= 1
+        when "EAST"
+            x += 1
+        end       
+    end
+
+shortest += ("NORTH " * [y, 0].max).split(" ")
+shortest += ("SOUTH " * [-y, 0].max).split(" ")
+shortest += ("WEST " * [-x, 0].max).split(" ")
+shortest += ("EAST " * [x, 0].max).split(" ")
+
+puts shortest
 end
+
+# Testing
+# shortest_walk(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"])
+# shortest_walk(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST","NORTH","NORTH" ])
+shortest_walk(["EAST","EAST","EAST","WEST","SOUTH", "SOUTH" ])

@@ -32,5 +32,3 @@ def total_words
 end
 
 end
-
-# definintion.add_word('ruby', 'A red, precious stone')

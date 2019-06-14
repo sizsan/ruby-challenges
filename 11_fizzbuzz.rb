@@ -28,26 +28,16 @@
 
 # Your code here
 num = 0
-loop do 
-
-    if num == 101
-    
-    break
-    
-    else 
-    num += 1
-    
-    end
-    case num
-
-    when num/3 == 0 & num/5 == 0 
-    puts "fizzbuzz"
-
-    when num/3 == 0
-    puts "fizz"
-
-    when num/5 == 0
-    puts "buzz"
-    
+    loop do 
+        num == 100 ? break : num += 1
+  
+        if num % 3 == 0 && num % 5 == 0
+            puts "FizzBuzz"
+        elsif num % 3 == 0
+            puts "Fizz"
+        elsif num % 5 == 0
+            puts "Buzz"
+        else
+            puts num
     end
 end 

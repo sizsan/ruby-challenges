@@ -18,5 +18,11 @@
 # ruby tests/10_unique_test.rb
 
 def unique(mylist)
-  
+  uniq = []
+  mylist.each do |word|
+    uniq += word if word != uniq
+  end
+  return uniq
 end
+
+puts unique(["tom", "tom", "tom",])

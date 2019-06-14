@@ -11,10 +11,13 @@
 # ruby tests/08_count_letters_test.rb
 # 
 def count_letters (string)
-  result = {} # You'll need an empty hash to get started!
-  result << string.split #splits the sting into individual characters
-  #for each letter an new key needs to created
+  result = string.split
+  result.each do |letter|
+    
 
-  #for each letter a the counter must increase by one
-  return result # return the hash
+
+
+
+
+  return result 
 end

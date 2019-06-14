@@ -34,3 +34,4 @@ def nthFibonacci (n)
   end    
 end
 
+puts nthFibonacci(100)

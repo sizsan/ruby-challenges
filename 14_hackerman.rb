@@ -18,8 +18,22 @@
 
 
 # Your code here
-
-
+puts "Give ur first input of words"
+input1 = [] gets
+puts "Give ur Second input"
+input2 = gets
+output = []
+i = 0
+i2.each do |w|
+    
+    if w == i1[i] 
+        output += "HIDDEN"
+    else
+        output += i1[i]
+    end
+    i += 1
+end
+return output
 
 # Beast mode:
 # Does your code deal with capital letters? Update your solution so that

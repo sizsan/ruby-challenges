@@ -19,17 +19,19 @@
 
 # Your code here
 puts "Give ur first input of words"
-input1 = [] gets
+input1 = []
+input1 += gets.split(" ") 
 puts "Give ur Second input"
-input2 = gets
+input2 = []
+input2 += gets.split(" ")
 output = []
 i = 0
-i2.each do |w|
+input2.each do |w|
     
-    if w == i1[i] 
+    if w == input1[i] 
         output += "HIDDEN"
     else
-        output += i1[i]
+        output += input1[i]
     end
     i += 1
 end

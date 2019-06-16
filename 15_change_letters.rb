@@ -19,3 +19,16 @@
 
 
 # Your code here
+puts "Enter the word you wish to change"
+input = gets.split(//)
+output = []
+i = 0
+input.each do |l|
+   if l == "s"
+    output << "th"
+   else 
+    output << input[i]
+   end
+   i += 1
+end
+puts output.join

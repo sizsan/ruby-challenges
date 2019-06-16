@@ -28,14 +28,14 @@ output = []
 i = 0
 input2.each do |w|
     
-    if w == input1[i] 
-        output += "HIDDEN"
+    if w.downcase == input1[i].downcase
+        output << "HIDDEN"
     else
-        output += input1[i]
+        output << input1[i]
     end
     i += 1
 end
-return output
+puts output
 
 # Beast mode:
 # Does your code deal with capital letters? Update your solution so that

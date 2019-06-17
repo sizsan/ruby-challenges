@@ -26,8 +26,6 @@ hash2 = {a: "a", b:"b", c:"c"}
 def combine_hashes(hash1, hash2)
   hash3 = {}
  hash3 = hash1.merge(hash2)  
-  
-  
   return hash3
 end
 

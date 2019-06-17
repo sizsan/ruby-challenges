@@ -27,11 +27,11 @@ def sort(num_array)
     indi = 0
     ascending_order = []
     num_array.each do |num|
-        indi += 1
-        if  num_array.index[indi] < num_array[indi + 1] 
+        i += 1
+        if  num_array.index[i] < num_array[i + 1] 
             ascending_order += num_array.shift 
 
-        else num_array.index[indi] > num_array[indi + 1]
+        else num_array.index[i] > num_array[i + 1]
             puts ascending_order
             break
         end

@@ -16,5 +16,23 @@
 # interesting_number(3210) => true
 
 def interesting_number(number)
-    # your code goes here
+    numbers = number.digits.reverse
+    puts false if numbers.length < 3 
+    i = 0
+# Descending
+if numbers[0] > numbers[1]
+    numbers.each do |num|
+    numbers[i] == numbers[i+1] - 1 ? i+1 : false
+        end    
+        puts true
+# Ascending 
+elsif numbers[0] < numbers[1]
+    numbers.each do |num|
+    numbers[i] == numbers[i+1] + 1 ? i+1 : false
+        end
+        puts true 
+else 
+    puts false
 end
+end
+

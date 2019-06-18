@@ -21,7 +21,7 @@ def interesting_number(number)
     i = 0
 # Descending
 if numbers[0] > numbers[1]
-    numbers.each do |num|
+    numbers.each - 1 do |num|
     numbers[i] == numbers[i+1] - 1 ? i+1 : false
         end    
         puts true

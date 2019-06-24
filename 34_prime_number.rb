@@ -24,5 +24,12 @@
 # Assume only positive whole numbers >=2 are given as argument.
 
 def prime_number(number)
-    
+    range = (2..number).to_a
+    range.each do |num|
+           
+        end
+    end
+    puts range.max
 end
+
+prime_number(45)

@@ -16,5 +16,12 @@
 # Return -1 if any negative argument is provided.
 
 def digital_root(number)
-    # Your code goes here
+    return "-1" if number < 0
+    numbers = number.digits
+    until numbers.length > 1 do 
+       number = numbers.digits.reduce(:+)
+    end   
+    puts number
 end
+
+puts digital_root(54322)

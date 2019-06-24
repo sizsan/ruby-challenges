@@ -12,5 +12,10 @@
 # in the lists for each owner.
 
 def group_by_owners(input)
-    # Your code goes here
+    output = {}
+    input.each do |file_name, name|
+    output.has_key?(name) ? :
+        
+    end
+    return output
 end

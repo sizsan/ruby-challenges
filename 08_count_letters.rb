@@ -11,13 +11,11 @@
 # ruby tests/08_count_letters_test.rb
 # 
 def count_letters (string)
-  result = string.split
-  result.each do |letter|
-    
-
-
-
-
-
-  return result 
+  result = string.split(//)
+  result.each { |letter|
+    (result[letter] ||= {} )  << letter
+  }
+  puts result 
 end
+
+puts count_letters("mississippi")

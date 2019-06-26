@@ -24,5 +24,18 @@
 
 
 def bin_flip(s)
-    # Your code goes here
+    steps = 0
+    s.chars.each_with_index do |num, index|
+     num == 0 ? index += 1 : 
+        if num[index] == "1"
+           num[index] == "0" 
+        else num == "0" 
+            num[index] == "1" 
+        end
+        index += 1
+        
+    end
+    return steps
 end
+
+puts bin_flip("01001")

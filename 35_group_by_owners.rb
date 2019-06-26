@@ -13,9 +13,10 @@
 
 def group_by_owners(input)
     output = {}
-    input.each do |file_name, name|
-    output.has_key?(name) ? :
-        
-    end
-    return output
+    input.each { |file_name, name|
+        (output[name] || = []) << file_name
+    }
+     return output
 end
+
+group_by_owners({'Input.txt' => 'Randy', 'Code.py' => 'Stan', 'Output.txt' => 'Randy'} )

@@ -18,16 +18,34 @@
 #
 # The shift will always be in range of [1, 26].
 
+# .rotate used to csawp the letters around 
+
 class CaesarCipher
   def initialize(shift)
-    # your code here
+    @alphabet = ("A".."Z").to_a
+    @shift = shift
   end
 
   def encode(string)
-    # your code here
+    result = []
+    string.upppercase.chars.each do |char|
+     index = @alphabet.index(char)
+     result << @alphabet.rotate(@shift)[index]      
+    end
+    return result.join
   end
   
   def decode(string)
-    # your code here
+    result = []
+    string.uppercase.chars.each do |char|
+      index = @alphabet.index(char)
+      result << @alphabet.rotate(-@shift)[index]
+    end
+    return result.join
   end
 end
+
+# c = CaesarCipher.new(5)
+# puts c.encode("WAFFLES")
+# puts c.decode("BFKKQJX")
+

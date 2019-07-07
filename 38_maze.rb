@@ -36,18 +36,10 @@
 
 # Good luck, and stay safe!
 
-# class Maze
-#     def initialize(maze)
-#         @maze = maze
-#     end
-#     def walk(path)
-#         # your code goes here
-#     end
-# end
-
+positioning 
 class Maze
     def initialize(maze)
-        # your code here
+        @maze = maze
     end
     def walk(moves)
        # your code here 

@@ -8,5 +8,6 @@
 # delete_over_nth([23,30,15,23,16],1) => [23,30,15,16]
 
 def delete_over_nth(list,n)
-    # your code here
+    list.each do |num|
+        
 end

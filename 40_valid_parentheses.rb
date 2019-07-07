@@ -12,17 +12,16 @@
 # valid_parentheses?("(a(bc)") => false
 
 def valid_parentheses?(string)
-    op = 0
-    cl = 0 
+    count = 0
     string.chars.each do |char|
         if char == "("
-            op += 1
+            count += 1
         elsif char == ")"
-            cl += 1
-        else 
+            count -= 1
         end
+       return false if count < 0
     end
-  puts op == cl ? 'true' : 'false' 
+  return count == 0  
 end
 
 puts valid_parentheses?("()")

@@ -14,5 +14,12 @@
 # reduce_pyramid([3, 9, 4])  ==  25
 
 def reduce_pyramid(pyramid)
-  #your code here
+  row2 = []
+  until pyramid.length == 1 do
+    i = 0
+    row2 << pyramid[i] + pyramid[i+1]
+    puts row2
+  end
 end
+
+reduce_pyramid([3, 9, 4])

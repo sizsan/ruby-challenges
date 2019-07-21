@@ -24,5 +24,5 @@ def valid_parentheses?(string)
   return count == 0  
 end
 
-puts valid_parentheses?("()")
-puts valid_parentheses?("(a(bc)")
+# puts valid_parentheses?("()")
+# puts valid_parentheses?("(a(bc)")

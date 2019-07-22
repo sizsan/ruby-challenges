@@ -24,7 +24,7 @@
 # Expected output: [2,2,4,5,8]
 
 def sort(num_array)
-    indi = 0
+    i = 0
     ascending_order = []
     num_array.each do |num|
         i += 1

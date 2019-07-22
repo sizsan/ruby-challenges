@@ -18,8 +18,10 @@ def reduce_pyramid(pyramid)
   until pyramid.length == 1 do
     i = 0
     row2 << pyramid[i] + pyramid[i+1]
-    puts row2
+    # use a second itteration
   end
+  pyramid = row2
+  puts row2
 end
 
 reduce_pyramid([3, 9, 4])
